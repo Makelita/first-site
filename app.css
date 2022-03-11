@@ -71,25 +71,96 @@ section {
     margin: 4rem 0;
 }
 
+h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+p {
+    padding: 1.3rem 0;
+}
+
+
+
 .hero {
     width: 100%;
     height: 40rem;
     background-color: black;
     display: flex;
+    border-radius: .8rem .8rem;
 }
 
 
-.right-hero {
+.left-hero {
     width: 40%;
     height: 100%;
     background-color: rgb(17, 37, 100);
     color: white;
+    position: relative;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
 }
 
-.left-hero {
+.left-hero-header {
+    text-align: center;
+
+}
+
+.course-type {
+    border-radius: 3rem;
+    background-color: rgb(88, 98, 143);
+    border: none;
+    color: white;
+    padding: .7rem .9rem;
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+.hero-paragrahps {
+    padding: 0 1.8rem;
+}
+
+
+.left-hero-buttons{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(7, 17, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 0 2rem;
+    border-bottom-left-radius: 0.8rem;
+    
+
+} 
+
+
+.l-hero-buttons {
+    margin-right: .6rem;
+    background-color: rgb(88, 98, 143);
+    color: white;
+    border: none;
+    padding: .8rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-radius: .5rem;
+    
+
+}
+
+.third-btn {
+    background-color: rgb(231, 56, 114);
+
+}
+
+.right-hero {
     width: 60%;
     background-color: rgb(0, 0, 0);
     color: white;
+    border-radius: .8rem;
 
 
 }
@@ -99,3 +170,4 @@ section {
     
 
 }
+
