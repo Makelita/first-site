@@ -1,0 +1,101 @@
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* __________________________________________________________________ */
+
+
+
+nav {
+    width: 100%;
+    height: 6rem;
+    background-color:rgb(77, 126, 218);
+    padding:0 20%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+nav .menu {
+    display:flex;
+   
+    
+}
+
+.nav-links{
+    display:flex;
+   align-items: center;
+  
+} 
+.nav-auth-links {
+    display: flex;
+    align-items: center;
+}
+
+
+
+nav ul { list-style: none;
+    color:aliceblue;
+    font-size: 1.6rem;
+}
+
+nav li{
+    margin-left:4rem;
+
+}
+
+nav .logo {
+    color: aliceblue;
+    font-size:2.5em;
+
+
+}
+
+
+
+section {
+    padding: 0 25%;
+    margin: 4rem 0;
+}
+
+.hero {
+    width: 100%;
+    height: 40rem;
+    background-color: black;
+    display: flex;
+}
+
+
+.right-hero {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(17, 37, 100);
+    color: white;
+}
+
+.left-hero {
+    width: 60%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+
+}
+
+.right-hero .course-type {
+    background-color: rgb(47, 46, 119, .8);
+    
+
+}
